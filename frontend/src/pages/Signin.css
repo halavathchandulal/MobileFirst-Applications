@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+h2 {
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-red-500 {
+  color: #f56565; /* Tailwind CSS error color */
+}

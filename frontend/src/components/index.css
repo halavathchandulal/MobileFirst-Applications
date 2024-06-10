@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.link1 {
+  color: black;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 700;
+  padding-bottom: 10px;
+  margin: 10px;
+}
