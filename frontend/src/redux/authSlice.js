@@ -20,22 +20,19 @@ const forgotPasswordDummyData = {
 }
 
 export const signinUser = createAsyncThunk('auth/signinUser', async () => {
-  // Your signin API call here using signinDummyData
-  // Example: const response = await axios.post('/api/signin', signinDummyData);
+ 
   return signinDummyData
 })
 
 export const signupUser = createAsyncThunk('auth/signupUser', async () => {
-  // Your signup API call here using signupDummyData
-  // Example: const response = await axios.post('/api/signup', signupDummyData);
+  
   return signupDummyData
 })
 
 export const forgotPasswordUser = createAsyncThunk(
   'auth/forgotPasswordUser',
   async () => {
-    // Your forgot password API call here using forgotPasswordDummyData
-    // Example: const response = await axios.post('/api/forgot-password', forgotPasswordDummyData);
+   
     return forgotPasswordDummyData
   },
 )
